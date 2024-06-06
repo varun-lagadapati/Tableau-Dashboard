@@ -1,1 +1,3 @@
-# TableauDashboard
+This repository contains the original and cleaned Kaggle weather datasets as csv files along with code to perform data cleaning. Below I describe the data cleaning process from the code to clean the original dataset.
+
+I downloaded the original dataset and uploaded in my drive. Next, I installed pandas and mounted my files from drive. I imported pandas and loaded the original dataset. The dataset is cleaned by removing the rows where the "Precip Type" column contains "snow" or "null" values. This is done by filtering out rows with "snow" and using the dropna function to eliminate rows with missing values aka "null" in the "Precip Type" column. The cleaned dataset is saved as a new csv file and can be downloaded. Finally, I added some print statements in between to inspect the original dataset with the info, verify the cleaning process, and display first few rows of the cleaned dataset.
